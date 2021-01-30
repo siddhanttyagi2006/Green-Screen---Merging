@@ -1,0 +1,23 @@
+<html>
+  <head>
+  <title> Green Screen! Woohoo! </title>
+  </head>
+  <body>
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js" >
+</script>
+
+<h1> Green Screen Secret </h1>
+
+<canvas id = "can1"> </canvas>
+<canvas id = "can2"> </canvas>
+<canvas id = "can3"> </canvas>
+<br>
+Base Image: <input type="file" multiple ="false" accept="image/*" id="frontfile" onchange = "F1loadimage()">
+Virtual Background: <input type="file" multiple ="false" accept="image/*" id="backfile" onchange = "F2loadimage()">
+<br>
+<br>
+<input type="button" value="View Magic" onclick="checkinputs()" >
+<input type="button" value="Clear Images" onclick="clearScreen()" >
+
+  </body>
+</html>
